@@ -1,13 +1,35 @@
 <!-- Default home page -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600' rel='stylesheet' type='text/css'>
 <style>
+		@import url('https://fonts.googleapis.com/css?family=Anton');
     .header{
       background-image: url('https://goo.gl/oJXI5m');
+      display: flex;
+			align-items: flex-end;
+			justify-content: flex-end;
+    }
+    .under-construction{
+    	font-size: 70px;
+    	text-decoration: uppercase;
+    	font-family: 'Anton', sans-serif;
+    	background: 0 0 5px rgba(200,200,200,200.5);
+    	line-height: 95px;
+    	color: transparent;
+   		text-shadow: 0 0 5px rgba(1,1,1,9);
+   		-moz-transform: scale(1) rotate(0.2deg) translateX(-310px) translateY(-340px) skewX(6deg) skewY(5deg);
+			-webkit-transform: scale(1) rotate(0.2deg) translateX(-310px) translateY(-340px) skewX(6deg) skewY(5deg);
+			-o-transform: scale(1) rotate(0.2deg) translateX(-310px) translateY(-340px) skewX(6deg) skewY(5deg);
+			-ms-transform: scale(1) rotate(0.2deg) translateX(-310px) translateY(-340px) skewX(6deg) skewY(5deg);
+			transform: scale(1) rotate(0.2deg) translateX(-310px) translateY(-340px) skewX(6deg) skewY(5deg);
+			position: absolute;
+    }
+    .logo{
+    	height: 50px;
     }
 </style>
-<script type="text/javascript">
-  setTimeout(function sunrise () {
-    document.getElementsByClassName('header')[0].style.backgroundColor = '#118798';
-  }, 0);
-</script>
-<div class="header" style="width: 900px; height: 400px;; margin: 0px auto;"></div>
+<div class="header" style="width: 900px; height: 400px;; margin: 0px auto;">
+	<img src="https://goo.gl/Vg8O0W" class="logo">
+	<p class="under-construction">under construction</p>
+</div>
+<div class="contact">
+</div>
